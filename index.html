@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkillTree Platform</title>
-    <!-- Salimos de mi-plataforma para entrar en styles -->
-    <link rel="stylesheet" href="../styles/main.css">
+    <!-- Ruta directa a la carpeta src -->
+    <link rel="stylesheet" href="src/styles/main.css">
 </head>
 <body>
 
     <aside>
         <h2>Skill Tree JS</h2>
+        <!-- Nuestro WebComponent -->
         <skill-selector id="selector"></skill-selector>
     </aside>
 
     <main id="viewer">
         <div class="empty-msg">
-            <h1>Selecciona un tema</h1>
-            <p>Haz clic en los cubos de la izquierda.</p>
+            <h1>Selecciona un cubo del Skill Tree</h1>
+            <p>Explora las fases del curso para comenzar a aprender.</p>
         </div>
     </main>
 
-    <!-- Salimos de mi-plataforma para leer main.js -->
-    <script type="module" src="../main.js"></script>
+    <!-- Ruta directa al JS principal -->
+    <script type="module" src="src/main.js"></script>
 </body>
 </html>
